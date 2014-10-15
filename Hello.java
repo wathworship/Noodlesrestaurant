@@ -9,7 +9,7 @@ public class Hello {
 		String input = s.next();
 		
 		for (int i = 0; i < number ; i++) {
-			System.out.println(input);
+			System.out.println(input);//
 		}
 	}
 }
