@@ -38,6 +38,15 @@
 	<input type="checkbox" value="">วุ้นเส้น</br>
 	</label>
 </div>
+<h4>เครื่องหลัก</h4>
+<div class="checkbox"">
+ <label>
+     <input type="checkbox" value=""> หมู &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" value=""> ลูกชิ้น </br>
+        <input type="checkbox" value=""> หมูสับ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" value=""> ตับลวก </br>
+     </label>
+</div>
 <h4>เพิ่มเครื่อง</h4>
 <div class="checkbox"">
  <label>
@@ -47,10 +56,11 @@
      <input type="checkbox" value=""> น้ำใส </br>
 	<input type="checkbox" value=""> ใส่ไข่มะตูน &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<input type="checkbox" value=""> กุ้ง</br>
-	<input type="checkbox" value=""> ปลาเมึก
+	<input type="checkbox" value=""> ปลาหมึก
 	
 	</label>
 </div>
+ก๋วยเตี๋ยว<input type="text"size ="2"value="">&nbsp;ชาม</br>
 <button type="submit" class="btn btn-default">บันทึกรายการ</button>
 <button type="reset" class="btn btn-default">ยกเลิกรายการ</button>
 </div>
