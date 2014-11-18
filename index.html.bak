@@ -20,18 +20,26 @@
 		</div>						
 			<ul >
 			
-			<li id="li_1" >
+			
 		<label class="description">หมายเลขโต๊ะ</label>
 		<div>
 			<input id="no" name="no" class="element text medium" type="text" maxlength="10" value=""/> 
 		</div> 
-		</li>		
-					<li id="li_1" >
-		<label class="description">ระบุจำนวน (ที่) </label>
+		<label class="description">ก๋วยเตี๋ยว</label>
 		<div>
-			<input id="detail" name="detail" class="element text medium" type="text" maxlength="255" value=""/> 
-			    
-				<input id="saveForm" class="button_text" type="submit" name="submit" value="สั่ง Order" />
+			<label class=\"description\" for=\"element_2\">ระบุเส้น </label>
+		<div>
+		<select class=\"element select medium\" id=\"element_2\" name=\"noodle$a\"> 
+			<option value=\"1\" selected=\"selected\">เลือกเส้น</option>
+<option value=\"เส้นเล็ก\" >เส้นเล็ก</option>
+<option value=\"เส้นใหญ่\" >เส้นใหญ่</option>
+<option value=\"เส้นหมี่\" >เส้นหมี่</option>
+<option value=\"วุ้นเส้น\" >วุ้นเส้น</option>
+<option value=\"บะหมี่เหลือง\" >บะหมี่เหลือง</option>
+
+		</select>
+		</div> 
+		</li>		
 		</div> 
 		</li>		
 		</ul>
