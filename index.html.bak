@@ -7,17 +7,16 @@
 <script type="text/javascript" src="view.js"></script>
 
 </head>
-<body id="main_body" >
+<body id="main_body" ><center>
 	
-	<img id="top" src="top.png" alt="">
+	
 	<div id="form_container">
 	
 		<h1><a>ใบสั่งอาหาร</a></h1>
 		<form class="appnitro"  method="post" action="order.php">
 					<div class="form_description">
 			<h2>ก๋วยเตี๋ยวต้มยำบ้านลายจุดข้างวัง</h2>
-			<p>น้ำซุปรสเข้ม เพิ่มการปรุงต้มยำแบบเราเอง น้ำมะนำวแท้ๆ พริกเผาเข้มข้น ถั่วบดทำเอง</p>
-		</div>						
+		</div>	</center>					
 			<ul >
 			
 			
@@ -31,11 +30,11 @@
 		<div>
 		<select class=\"element select medium\" id=\"element_2\" name=\"noodle$a\"> 
 			<option value=\"1\" selected=\"selected\">เลือกเส้น</option>
-<option value=\"เส้นเล็ก\" >เส้นเล็ก</option>
-<option value=\"เส้นใหญ่\" >เส้นใหญ่</option>
-<option value=\"เส้นหมี่\" >เส้นหมี่</option>
-<option value=\"วุ้นเส้น\" >วุ้นเส้น</option>
-<option value=\"บะหมี่เหลือง\" >บะหมี่เหลือง</option>
+			<option value=\"เส้นเล็ก\" >เส้นเล็ก</option>
+			<option value=\"เส้นใหญ่\" >เส้นใหญ่</option>
+			<option value=\"เส้นหมี่\" >เส้นหมี่</option>
+			<option value=\"วุ้นเส้น\" >วุ้นเส้น</option>
+			<option value=\"บะหมี่เหลือง\" >บะหมี่เหลือง</option>
 
 		</select>
 		</div> 
