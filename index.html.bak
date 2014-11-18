@@ -24,7 +24,15 @@
 		<label class="description">หมายเลขโต๊ะ</label>
 		<div>
 			<input id="no" name="no" class="element text medium" type="text" maxlength="10" value=""/> 
-	
+		</div> 
+		</li>		
+					<li id="li_1" >
+		<label class="description">ระบุจำนวน (ที่) </label>
+		<div>
+			<input id="detail" name="detail" class="element text medium" type="text" maxlength="255" value=""/> 
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="สั่ง Order" />
+		</div> 
 		</li>		
 		</ul>
 		
