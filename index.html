@@ -4,67 +4,57 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>ใบสั่งอาหาร | ก๋วยเตี๋ยวต้มยำบ้านลายจุดข้างวัง</title>
 <link rel="stylesheet" type="text/css" href="view.css" media="all">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css" />
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css" />
+<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="view.js"></script>
-
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.button.min.js" type="text/javascript"></script>
 </head>
 <body id="main_body" ><center>
 	
 	
 	<div id="form_container">
 	
-		<h1><a>ใบสั่งอาหาร</a></h1>
+		<h1>&nbsp;</h1>
 		<form class="appnitro"  method="post" action="order.php">
 					<div class="form_description">
 			<h2>ก๋วยเตี๋ยวต้มยำบ้านลายจุดข้างวัง</h2>
 <p>&nbsp;</p>
-			</center>	
+			
 		</div>					
-			<ul >
+			<ul >	
 			  <table width="471" border="0">
 		  <tbody>
 		    <tr>
 		      <th width="123" scope="col"><span class="description">หมายเลขโต๊ะ</span></th>
 		      <th width="60" scope="col"><input name="no2" type="text" class="element text medium" id="no2" value="" size="10" maxlength="10"/></th>
-		      <th width="274" scope="col">&nbsp;</th>
+		      <td width="274" scope="col">โต๊ะ</td>
 	        </tr>
 		    <tr>
 		      <th scope="row">จำนวนชาม</th>
 		      <td><input name="no2" type="text" class="element text medium" id="no2" value="" size="10" maxlength="10"/></th></td>
-		      <td>&nbsp;</td>
+		      <td>ชาม</td>
 	        </tr>
-		    <tr>
-		      <th scope="row">&nbsp;</th>
-		      <td>&nbsp;</td>
-		      <td>&nbsp;</td>
-	        </tr>
+		   
 	      </tbody>
 		  </table>
-		<div></div> 
-		<label class="description"><h1>&nbsp;</h1>
-		</label><h2>&nbsp;</h2> <input id="no" name="no" class="element text medium" type="text" maxlength="10" value=""/> 
 		<div>
-		  <label class=\"description\" for=\"element_2\">ระบุเส้น </label>
-		<div>
-		<select class=\"element select medium\" id=\"element_2\" name=\"noodle$a\"> 
-			<option value=\"1\" selected=\"selected\">เลือกเส้น</option>
-			<option value=\"เส้นเล็ก\" >เส้นเล็ก</option>
-			<option value=\"เส้นใหญ่\" >เส้นใหญ่</option>
-			<option value=\"เส้นหมี่\" >เส้นหมี่</option>
-			<option value=\"วุ้นเส้น\" >วุ้นเส้น</option>
-			<option value=\"บะหมี่เหลือง\" >บะหมี่เหลือง</option>
-
-		</select>
-		</div> 
+		  <button id="Button1">Button</button>
+		  </div>
+		
 		</li>		
-		</div> 
-		</li>		
-		</ul>
+	      </ul>
 		
 		</form>	
 		<div id="footer">
 	
 		</div>
 	</div>
-	<img id="bottom" src="bottom.png" alt="">
-	</body>
+<script type="text/javascript">
+$(function() {
+	$( "#Button1" ).button(); 
+});
+    </script>
+</body>
 </html>
